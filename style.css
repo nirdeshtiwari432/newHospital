@@ -1,0 +1,110 @@
+
+
+h1{
+    color: rgb(0, 0, 0);
+    border: solid 5px #000;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+html,body{
+    background: url(https://p.turbosquid.com/ts-thumb/z5/bBkGMM/Azg8JbyN/1200/jpg/1564654476/300x300/sharp_fit_q85/13efb58da739777f0b69e603e5fd98079bf6be5b/1200.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+*{
+    margin: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #000;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#link1 {
+    font-size: 30px;
+    display: flex;
+    background-color: transparent;
+    margin-left: 1100px;
+    border:  solid 5px #000 ;
+    border-radius: 10px;
+    align-items: center;
+    width: fit-content;
+    
+    color: aqua;
+
+}
+#link2 {
+    font-size: 30px;
+    display: flex;
+    background-color: black;
+    margin-left: 1300px;
+    border:  solid 5px #000 ;
+    border-radius: 10px;
+    align-items: center;
+    width: fit-content;
+
+}
+#div1{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 700px;
+    display: inline;
+}
+main {
+    padding: 20px;
+}
+.hospital {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.hospital h2 {
+    margin-top: 0;
+}
+.hospital p {
+    margin-bottom: 5px;
+}
+.booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    color: #000;
+}
+
+
+
+
+
+
+
+

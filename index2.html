@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<<link rel="stylesheet" type="" href="style.css">> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<script src= "main.js">
+<script src = "db2.js"> </script>
+
+</head>
+<body >
+<main>
+<section class = "one">
+    <div id = "div1">
+    <h1>Welcome to Our Website</h1>
+</div>
+</section>
+<section class="two">
+    <div id = "link1">
+<ul >
+    <li><a href="index.html">Logout</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="about.html">About</a></li> 
+</ul>
+</div>
+<form id="hospitalForm" action = "show.php">
+    <label for="city">Enter City Name:</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <input type="submit" value="Search" herf = "">
+</form>
+<div id="hospitalList" style="display:none;">
+    <h2>Hospitals in <span id="selectedCity"></span></h2>
+    <ul id="hospitals"></ul>
+</div>
+<script src = "city.js"> </script>
+    </div>   
+</main>
+</body>
+</script>
+</html>

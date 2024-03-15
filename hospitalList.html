@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<<link rel="stylesheet" type="" href="style.css">> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<script src= "main.js">
+<script src = "db2.js"> </script>
+
+</head>
+<body >
+<main>
+<section class = "one">
+    <div id = "div1">
+    <h1>Welcome to Our Website</h1>
+</div>
+</section>
+<section class="two">
+    <div id = "link1">
+<ul >
+    <li><a href="index.html">Logout</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="about.html">About</a></li> 
+</ul>
+</div>
+<form id="hospitalForm">
+    <label for="city">Enter City Name:</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <input type="submit" value="Search">
+</form>
+<div id="hospitalList" style="display:none;">
+    <h2>Hospitals in <span id="selectedCity"></span></h2>
+    <ul id="hospitals"></ul>
+</div>
+<script src = "city.js"> </script>
+
+<div class="hospital">
+        <h2>Hospital Name</h2>
+        <p>Location: Hospital Address</p>
+        <p id = "room">"Available Rooms: 10"</p>
+        <p id = "price">Price: $100 per night</p>
+        <button onclick="showBookingForm('hospital1')">Book Now</button>
+    </div>
+    <div class="hospital">
+        <h2>Hospital Name</h2>
+        <p>Location: Hospital Address</p>
+        <p id = "room">Available Rooms: 10</p>
+        <p id = "price">Price: $100 per night</p>
+        <button onclick="showBookingForm('hospital1')">Book Now</button>
+    </div>   
+<div id="bookingForm" class="booking-form" style="display:none;">
+        <h2>Booking Form</h2>
+        <form action="confirm_bookin.php" method="post">
+            <form action="p_detail.php" method="post">
+        <label for="p_name">p_name:</label>
+        <input type="text" id="p_name" name="p_name" required>
+        <br>
+
+        <label for="p_adhar">p_adhar:</label>
+        <input type="text" id="p_adhar" name="p_adhar" required>
+        <br>
+        <label for="p_problem">p_problem:</label>
+        <input type="text" id="p_problem" name="p_problem" required>
+        <br>
+        <label for="h_id">h_id:</label>
+        <input type="text" id="h_id" name="h_id" required>
+        <br>
+        <label for="day">day:</label>
+        <input type="text" id="day" name="day" required>
+        <br>
+        <input type="submit" value="Login" href ="">
+    </form>
+        </form>
+    </div>
+</main>
+</body>
+</script>
+</html>
